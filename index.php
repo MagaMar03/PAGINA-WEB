@@ -476,6 +476,14 @@
             <button type="submit">Suscribirse</button>
         </form>
     </section>
+    <section class="newsletter">
+        <h2>Suscríbete a Nuestro Newsletter</h2>
+        <p>Recibe las últimas tendencias y ofertas exclusivas</p>
+        <form class="newsletter-form" method="POST" action="subscribe.php">
+            <input type="email" name="email" placeholder="Tu correo electrónico" required>
+            <button type="submit">Suscribirse</button>
+        </form>
+    </section>
 
     <!-- Footer -->
     <footer id="contacto">
